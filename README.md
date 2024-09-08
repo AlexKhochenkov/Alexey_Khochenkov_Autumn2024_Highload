@@ -20,7 +20,7 @@ Google Calendar - сервис для планирования мероприя�
 
 ## ЦА
 
-Размер целевой аудитории: около 500 млн. пользователей в месяц. [[1]](https://earthweb.com/blog/google-calendar-users/)
+Размер целевой аудитории: около 500 млн. пользователей в месяц. [[1]](https://earthweb.com/blog/google-calendar-users/) [[3]](https://zipdo.co/google-calendar-statistics/)
 
 Ниже приведена статистика по возрасту целевой аудитории, начиная с 18 лет [[2]](https://pro.similarweb.com/#/digitalsuite/websiteanalysis/audience-demographics/*/999/1m?webSource=Total&key=calendar.google.com)
 Возрастная группа | Процентное соотношение
@@ -47,3 +47,9 @@ Google Calendar - сервис для планирования мероприя�
 Объединённое королевство| 2,95% 
 Канада                  | 2,9% 
 Остальные               | 35,76%
+
+# Список источников
+
+1. https://earthweb.com/blog/google-calendar-users/
+2. https://pro.similarweb.com/#/digitalsuite/websiteanalysis/audience-demographics/*/999/1m?webSource=Total&key=calendar.google.com
+3. https://zipdo.co/google-calendar-statistics/
