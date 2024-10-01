@@ -215,7 +215,7 @@ DAU = 125 млн.
 
 * Токио, Япония
 
-![Карта физического расположения ДЦ](./images/cWytysrM2wo.jpg)
+![Карта физического расположения ДЦ](./images/Stage3.jpg)
 
 Полную карту можно посмотреть здесь (https://yandex.ru/maps/?um=constructor%3Ae21060ef020adb7da3aa4cf59ba341c5599006ff95ce84aca2b34eb51499d540&source=constructorLink)
 
