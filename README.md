@@ -252,6 +252,33 @@ DAU = 125 млн.
 
 Для обеспечения отказоустойчивости будем применять протокол VRRP(Virtual Router Redundancy Protocol), который позволит нам при отказе одного из балансировщиков перенести весь трафик на другую машину, поднятую на том же IP адресе. Так же можно использовать keepalive соединение, которое позволит отслеживать и оповещать балансировщик о доступности узлов.
 
+# 5 Логическая схема БД
+
+![Схема БД](./images/Stage5.jpg)
+
+Полную схему можно посмотреть здесь (https://dbdiagram.io/d/Stage_5-6703f39ffb079c7ebd9d86fd)
+
+## Размеры данных в таблице
+
+| User                 | Calendar             | Event                 | Session          | User_to_calendar  | User_to_event  |
+| -------------------- | -------------------- | --------------------- | ---------------- | ----------------- | -------------- |
+| id (8 B)             | id (8 B)             | id (8 B)              | id (8 B)         | id (8 B)          | id (8 B)       |
+| email (255 B)        | name (128 B)         | calendar_id (8 B)     | user_id (8 B)    | user_id (8 B)     | user_id (8 B)  |
+| password_hash (128 B)        | user_id (8 B)       | user_id (8 B)         | create_date (8 B) | calendar_id (8 B) | event_id (8 B) |
+| username (128 B)     | timezone (72 B)      | create_date (8 B)     | expire_date (8 B) |                  |                |
+|                      | description (1024 B) | update_date (8 B)     |                  |                   |                |
+|                      |                      | start_date (8 B)      |                  |                   |                |
+|                      |                      | end_date (8 B)        |                  |                   |                |
+|                      |                      | name (128 B)          |                  |                   |                |
+|                      |                      | description (1024 B)  |                  |                   |                |
+|                      |                      | location (4 B)      |                  |                   |                |
+
+Итого:
+
+| User                 | Calendar             | Event                 | Session          | User_to_calendar  | User_to_event  |
+| -------------------- | -------------------- | --------------------- | ---------------- | ----------------- | -------------- |
+| 517 B                | 1240 B               | 1212 B                | 32 B             | 24 B              | 24 B           |
+
 # Список источников
 
 1. https://earthweb.com/blog/google-calendar-users/
