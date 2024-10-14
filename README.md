@@ -325,7 +325,8 @@ DAU = 125 млн.
 
 Для языка Go, на котором будет написан backend, можно использовать следующие библиотеки:
 
-PostgreSQL: pgx.
+PostgreSQL: pgx
+
 Tarantool: go-tarantool
 
 ## Резервное коипрование
