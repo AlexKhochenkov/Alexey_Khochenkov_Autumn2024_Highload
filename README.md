@@ -230,7 +230,7 @@ DAU = 125 млн.
 
 * Токио, Япония
 
-![Карта физического расположения ДЦ](./images/Stage.jpg)
+![Карта физического расположения ДЦ](./images/Stage3.jpg)
 
 Полную карту можно посмотреть здесь (https://yandex.ru/maps/?um=constructor%3Ae21060ef020adb7da3aa4cf59ba341c5599006ff95ce84aca2b34eb51499d540&source=constructorLink)
 
@@ -269,7 +269,7 @@ DAU = 125 млн.
 
 # 5 Логическая схема БД
 
-![Схема БД](./images/Stage.jpg)
+![Схема БД](./images/Stage5.jpg)
 
 Полную схему можно посмотреть здесь (https://dbdiagram.io/d/Copy-of-Copy-of-Stage_6-673a3882e9daa85acabdf7fb)
 
